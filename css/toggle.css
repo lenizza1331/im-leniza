@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 40, 245);
+} 
+.wrapper {
+    margin: 200px;
+}
+.list {
+    list-style: none;
+}
+.list__eng a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin:0 2px 0 0 ;
+    position: relative;
+    height: 24px;
+    width: 60px;
+    border-radius: 10em;
+    display: inline-block;
+    background-color: orange;
+    box-shadow: 0 0 5px rgba(92, 88, 88, 1);
+
+}
+.list__eng a::before{
+    content: "Eng";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    color: white;
+    top: 1px;
+    left: 5px;
+}
+
+.list__eng a::after{
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    color: white;
+    top: -5px;
+    left: 37px;
+    background-color: #fff;
+    border-radius: 10em;
+    box-shadow: 0 0 2px rgb(54, 52, 52), inset 0 0 2px rgba(92, 88, 88, .5);
+
+}
+ /* rus */
+
+.list__rus a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin:0 2px 0 0 ;
+    position: relative;
+    /* border: 2px black solid; */
+    height: 24px;
+    width: 60px;
+    border-radius: 10em;
+    display: inline-block;
+    background-color: orange;
+    box-shadow: 0 0 5px rgba(92, 88, 88, 1);
+}
+.list__rus a::after{
+    content: "Rus";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    color: white;
+    top: 0px;
+    left: 24px;
+}
+
+.list__rus a::before{
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    color: white;
+    top: -4px;
+    left: -9px;
+    background-color: #fff;
+    border-radius: 10em;
+    box-shadow: 0 0 2px rgb(54, 52, 52), inset 0 0 2px rgba(92, 88, 88, .5);
+
+}

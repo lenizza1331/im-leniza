@@ -7,53 +7,36 @@
         max-width: 100%;
         max-height: 438px;
         border-radius: 40% 40px;
-        box-shadow:inset 0 0 10px rgb(43, 6, 146);
     }
 }
-
-// .myphoto {
-//     width: 250px;
-//     height: 450px;
-//     border-radius: 20px;
-//     box-shadow: 0 0 30px rgb(43, 6, 146);
-// }
-
 
 .main-title {
 	margin: 0;
 	padding: 0;
 	color: #f5810c;
 	text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 
 .main-title .thin {
-	font-weight: 300;
+	font-weight: 400;
 }
 
-.block-canva {
-    visibility: visible;
-}
+
 canvas {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -999;
     height: inherit;
 
 }
 
 @media all and (max-width: 1024px){
-    // .main .photo {
-    //     // width: 250px;
-    //     height: 313px;
-    //     position: static;
-    // }
     .main-title .thin{
         color: #fff;
     }
-    canvas {
-        height: inherit;
-        width: inherit;
-    }
+
 }

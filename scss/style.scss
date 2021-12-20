@@ -1,78 +1,14 @@
 @import "navbar";
 @import "main";
+@import "about";
+@import "portfolio";
 
-// .checkbox {
-//     margin: 20px;
-//     display: flex;
-//     max-width: 80px;
-//     height: 30px;
-//     background-color: orange;
-//     border-radius: 20px;
-//     &__inner {
-//         padding: 5px;
-//     }
-
-
-//     &__link {
-//         text-decoration: none;
-//         color: #fff;
-//         font-size: 18px;
-//     }
-
-//     &__ball {
-//         border-radius: 50%;
-//         background-color: #fff;
-//         height: 25px;
-//         width: 50px;
-//         z-index: 1;
-//         border: orange 3px solid;
-//         align-self: center;
-//         // translate: -30px 0;
-//         transform: translateX(100%);
-//     }
-// }
-
-
-// .header {
-//     background-color: blue;
-//     display: flex;
-//     justify-content: center;
-
-//     &__inner {
-//         min-width: 1120px;
-//         height: 100px;
-//         display: flex;
-//         justify-content: space-between;
-//         background-color: orchid;
-//     }
-
-
-//     &__logo {
-//         img {
-//             width: 40px;
-//             background-color: #fff;
-//             padding: 5px;
-//             border-radius: 50px;
-//         }
-//     }
-
-//     &__switch {
-
-//     }
-
-//     &__nav {
-//         display: flex;
-//         justify-content: space-between;
-//     }
-
-//     &__link {
-//         text-decoration: none;
-//         font-size: 20px;
-//         color: white;
-//         letter-spacing: 2px;
-//     }
-// }
 body {
     box-sizing: border-box;
 }
 
+ul li{list-style: none;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+button{cursor: pointer;}
+input,button,textarea{font-family:inherit;}

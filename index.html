@@ -33,13 +33,16 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav  ms-auto">
                     <li class="nav-item nav__list ">
-                        <a class="nav-link me-2 active" aria-current="page" href="#">Обо мне</a>
+                        <a class="nav-link me-2 active" aria-current="page" href="#aboutme">Обо мне</a>
                     </li>
                     <li class="nav-item nav__list">
-                        <a class="nav-link me-2 active" href="#">Портфолио</a>
+                        <a class="nav-link me-2 active" href="#portfolio">Портфолио</a>
                     </li>
                     <li class="nav-item nav__list">
-                        <a class="nav-link me-2 active" href="#">Контакты</a>
+                        <a class="nav-link me-2 active" href="#testimonial">Отзывы</a>
+                    </li>
+                    <li class="nav-item nav__list">
+                        <a class="nav-link me-2 active" href="#contacts">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -63,55 +66,77 @@
     </div>
 </div> --> 
 
-
-
+<section id="header">
 <div class="header" id="animated">
     <div class="container-lg">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-center align-items-center text-center">
-        <main class="px-3 ">
-            <h1 class="header-title"><span class="bold-head">Привет! </span> я Лениза </h1>
-            <p class=" header-text">я front-end веб-разработчик из Москвы, создаю красивые и адаптивные сайты с качественным и удобным интерфейсом
-            </p>
-            <p class="lead">
-            <ul class="social list-group  d-flex justify-content-evenly list-group-horizontal ">
-                <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fas fa-paper-plane"></i></a></li>
-                <li><a href="#"><i class="fas fa-at"></i></a></li>
-                <li><a href="#"><i class="fab fa-whatsapp-square"></i></a></li>
-             </ul></p>
-            <p class="lead">
-                <a href="#" class="btn  btn-secondary fw-bold border-white mt-3">Learn more</a>
-            </p>
-        </main>
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto  flex-column text-center">
+            <main class="px-3 ">
+                <h1 class="header-title"><span class="bold-head">Привет! </span> я Лениза </h1>
+                <p class="header-text">я front-end веб-разработчик из Москвы, создаю красивые и адаптивные сайты с
+                    качественным и удобным интерфейсом
+                </p>
+                <p class="lead">
+                    <ul class="social list-group my-5  d-flex justify-content-evenly list-group-horizontal ">
+                        <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="far fa-paper-plane"></i></a></li>
+                        <li><a href="#"><i class="fas fa-at"></i></a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </p>
+                <p class="lead">
+                    <a href="#aboutme" class="btn btn-outline-primary  header-btn">Узнать больше</a>
+                </p>
+            </main>
+        </div>
     </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>
 
 
 
 <section id="aboutme">
+
     <div class="about">
-        
+        <div class="container-lg ">
+            <div class="row featurette ">
+                <div class="col-lg-6 mt-2 d-flex align-items-center justify-content-center order-md-1">
+                    <img src="assets/lz (4).png" id="myPhoto" class="img-fluid mx-auto photo" alt="">
+                </div>
+                <div class="col-lg-6 my-lg-5 my-md-2 d-flex flex-column align-items-start  justify-content-center order-md-1 textaboutme">
+                    <h3 class="about__heading">ОБО МНЕ</h3>
+                    <p class="about__text">Привет, я Лениза и я веб-разработчик из Москвы. Я создаю с нуля современные, адаптивные и динамичные сайты и веб-приложения.
+                        Программирование моя страсть, я люблю учиться и постоянно совершенствуюсь в своих навыках.
+                        Мне нравится работать над интересными и визуально красивыми проектами, я всегда уделяю особое внимание адаптивности и непременно довожу дело до конца в необходимые сроки.
+                        Хорошо работаю как одна, так и с командой. Я ответственна и исполнительна, всегда на связи и, конечно же, гарантирую качество своей работы</p>
+                    <h3 class="about__heading">SKILLS</h3>
+                    <ul class="list-group list-group-horizontal d-flex flex-wrap justify-content-evenly skills">
+                        <li><i title="HTML" class="fab fa-html5"></i></li>
+                        <li><i title="CSS" class="fab fa-css3-alt"></i></li>
+                        <li><i title="JavaScript" class="fab fa-js"></i></li>
+                        <li><i title="SASS" class="fab fa-sass"></i></li>
+                        <li><i title="GitHub" class="fab fa-github"></i></li>
+                        <li><i title="Figma" class="fab fa-figma"></i></li>
+                        <li><i title="React" class="fab fa-react"></i></li>
+                        <li><i title="Node.js" class="fab fa-node-js"></i></li>
+                        <li><i title="Bootstrap5"class="fab fa-bootstrap"></i></li>
+                        <li><img title="BEM" src="assets/bem.png" width="30px" height="30px" alt="bem logo"></li>
+                        <li><img title="GSAP" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/logo.gif" width="30px" height="30px" alt="GreenSock logo"></li>
+                    </ul>
+                    <h3 class="about__heading">WORKFLOW</h3>
+                    <ul class="list-group ">
+                        <li class=" workingon">Ориентация на мобильные устройства, адаптивный дизайн</li>
+                        <li class=" workingon">Кроссбраузерное тестирование и отладка</li>
+                        <li class=" workingon">Межфункциональные команды</li>
+                        <li class="workingon">Гибкая разработка и Scrum</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
+
+
 </section>
-
-
 
 
 

@@ -44,10 +44,9 @@
     background-color: orange;
     box-shadow: 0 0 5px rgba(92, 88, 88, 1);
     font-family: 'Jost', sans-serif;
-
 }
 .list__eng::before {
-    content: "Eng";
+    content: "Engus";
     position: absolute;
     width: 24px;
     height: 24px;
@@ -56,7 +55,7 @@
     left: 7px;
 }
 
-.list__eng::after{
+.list__eng::after {
     content: "";
     position: absolute;
     width: 32px;
@@ -69,6 +68,10 @@
     box-shadow: 0 0 2px rgb(54, 52, 52), inset 0 0 2px rgba(92, 88, 88, .5);
 }
 
+.list__eng:hover::after {
+    transform: translateX(-23px);
+    transition: all 1s ease;
+}
 
 .list__rus {
     text-decoration: none;
@@ -105,6 +108,11 @@
     background-color: #fff;
     border-radius: 10em;
     box-shadow: 0 0 2px rgb(54, 52, 52), inset 0 0 2px rgba(92, 88, 88, .5);
+}
+
+.list__rus:hover::before {
+    transform: translateX(16px);
+    transition: all 1s ease;
 }
 
 @media all and (max-width: 800px) {

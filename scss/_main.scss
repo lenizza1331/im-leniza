@@ -1,27 +1,55 @@
-.main {
+.header {
     background: linear-gradient(187deg, rgba(32,113,249,0.7) 40%, rgba(255,255,255,1) 51%, rgba(249,181,32,.5) 68%);
-    max-height: 100vh;
+    // min-height: 100vh;
     overflow: hidden;
     position: relative;
-    .photo{
-        max-width: 100%;
-        max-height: 438px;
-        border-radius: 40% 40px;
-    }
 }
 
-.main-title {
+.photo{
+    max-width: 100%;
+    max-height: 438px;
+    border-radius: 40% 40px;
+}
+
+.header-title {
 	margin: 0;
 	padding: 0;
-	color: #f5810c;
+	color: #fff;
 	text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 70px;
+    .bold-head {
+        font-weight: 900;
+        color: #f5810c;
+
+    }
+}
+.header-text {
+    font-size: 35px;
+    color: #0c10f5;
+
 }
 
+.cover-container{
+max-width: 42em;
+margin: 20vh 0 10vh 0;
+}
 
-.main-title .thin {
+.header-title .thin {
 	font-weight: 400;
+}
+.social {
+    list-style: none;
+    font-size: 50px;
+}
+
+.social li a i {
+    color: rgb(228, 133, 9);
+    text-shadow: 1px 0 2px #000;
+}
+.social li a i:hover{
+    color: blue;
 }
 
 
@@ -35,8 +63,14 @@ canvas {
 }
 
 @media all and (max-width: 1024px){
-    .main-title .thin{
-        color: #fff;
+    .header-title{
+        font-size: 40px;
+    }
+    .header-text{
+        font-size: 20px;
+    }
+    .cover-container {
+        margin-top: 15vh;
     }
 
 }

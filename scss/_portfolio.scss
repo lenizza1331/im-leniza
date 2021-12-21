@@ -1,0 +1,13 @@
+#portfolio{
+    background-color: rgba(21, 21, 236, 0.5);
+
+}
+.myapps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    img{
+        width: 500px;
+    }
+}

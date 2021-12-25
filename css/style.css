@@ -91,7 +91,7 @@
     width: 60px;
     border-radius: 10em;
     display: inline-block;
-    background-color: #192eec;
+    background-color: orange;
     -webkit-box-shadow: 0 0 5px #5c5858;
             box-shadow: 0 0 5px #5c5858;
 }
@@ -168,7 +168,7 @@
 }
 
 .header {
-    background: linear-gradient(187deg, rgba(32, 113, 249, 0.7) 40%, white 51%, rgba(235, 160, 0, 0.5) 68%);
+    background: linear-gradient(187deg, rgba(32, 113, 249, 0.7) 40%, rgba(238, 171, 25, 0.9) 68%);
     min-height: 100vh;
     overflow: hidden;
     position: relative;
@@ -199,12 +199,12 @@
 
 .header-title .bold-head {
     font-weight: 900;
-    color: #f5810c;
+    color: orange;
 }
 
 .header-text {
     font-size: 25px;
-    color: #0c10f5;
+    color: #f8f8fc;
     max-width: 500px;
     text-align: center;
     margin: auto;
@@ -225,16 +225,21 @@
 }
 
 .social li a i {
-    color: #e48509;
-    text-shadow: 1px 1px 1px #1e1ae4;
+    color: #0d6efd;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #03057e;
 }
 
 .social li a i:hover {
-    color: blue;
+    color: #fcfbf9;
+    border-bottom: 3px solid #fff;
+    text-shadow: 0 0 10px #e28801;
 }
 
 .header-btn {
     margin-top: 40px;
+    min-width: 200px;
+    text-transform: uppercase;
 }
 
 canvas {
@@ -242,7 +247,6 @@ canvas {
     top: 0;
     left: 0;
     z-index: -999;
-    height: inherit;
 }
 
 @media all and (max-width: 1024px) {
@@ -256,7 +260,7 @@ canvas {
         font-size: 30px;
     }
     .cover-container {
-        margin-top: 15vh;
+        margin-top: 6vh;
     }
     .social {
         font-size: 25px;
@@ -340,7 +344,7 @@ canvas {
 }
 
 #portfolio {
-    background-color: rgba(170, 68, 9, 0.726);
+    background-color: #0d6efd;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-position: center;
@@ -367,9 +371,11 @@ canvas {
     text-align: center;
     font-size: 40px;
     margin-top: 30px;
-    color: darkorange;
-    text-shadow: 1px 1px 2px #1105b9;
+    color: orange;
+    text-shadow: 1px 1px 2px #0d6efd;
     font-weight: 700;
+    padding: 5px;
+    border-bottom: 2px solid #fff;
 }
 
 .title-apps p {
@@ -477,7 +483,7 @@ canvas {
 
 .image__btn:hover {
     background-color: #f1eee8;
-    color: #e49c16;
+    color: orange;
 }
 
 @media all and (max-width: 1200px) {
@@ -554,6 +560,8 @@ canvas {
     color: #ebe9e7;
     text-shadow: 1px 1px 2px #1105b9;
     font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    border-bottom: 2px solid #0d6efd;
 }
 
 .reviews__header h2 {
@@ -602,7 +610,7 @@ canvas {
 }
 
 #contacts {
-    background-color: #0404a3;
+    background-color: #0d6efd;
     min-height: 50vh;
 }
 
@@ -619,10 +627,12 @@ canvas {
     font-size: 40px;
     font-weight: bold;
     color: #ebe9e7;
-    text-shadow: 1px 1px 2px #1105b9;
+    text-shadow: 1px 1px 2px #0d6efd;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     margin-top: 30px;
+    padding: 5px;
+    border-bottom: 2px solid orange;
 }
 
 .contact {
@@ -691,7 +701,7 @@ canvas {
 }
 
 .forma .forma-btn:hover {
-    background-color: #07a71c;
+    background-color: #35aa3e;
     -webkit-box-shadow: 0 0 10px black;
             box-shadow: 0 0 10px black;
 }
@@ -704,7 +714,7 @@ canvas {
 
 .myCont h3 {
     color: #ebe9e7;
-    text-shadow: 1px 1px 2px #1105b9;
+    text-shadow: 1px 1px 2px #0d6efd;
     font-size: 30px;
     text-align: end;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -732,7 +742,7 @@ canvas {
 
 .myCont .list-contact li a i:hover {
     color: white;
-    border-bottom: 3px solid #f7ad0e;
+    border-bottom: 3px solid orange;
     text-shadow: 0 0 10px #000;
 }
 

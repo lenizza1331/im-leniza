@@ -18,13 +18,13 @@
 }
 
 #navbarNav {
-    background-color: rgb(13,110,253);
+    background-color: $bluecl;
     padding: 4px;
     border-radius: 10px;
     text-align: center;
 }
 .nav__list:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: $orangecl;
     padding: 0 2px 0 7px;
     border-radius: 10px;
     transition: .5s all ease;
@@ -41,7 +41,7 @@
     width: 60px;
     border-radius: 10em;
     display: inline-block;
-    background-color: orange;
+    background-color: $orangecl;
     box-shadow: 0 0 5px rgba(92, 88, 88, 1);
     font-family: 'Jost', sans-serif;
 }
@@ -84,7 +84,7 @@
     width: 60px;
     border-radius: 10em;
     display: inline-block;
-    background-color: rgb(25, 46, 236);
+    background-color: $orangecl;
     box-shadow: 0 0 5px rgba(92, 88, 88, 1);
 }
 .list__rus::after{

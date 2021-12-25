@@ -1,85 +1,88 @@
 .header {
-    background: linear-gradient(187deg, rgba(32,113,249,0.7) 40%, rgba(255,255,255,1) 51%, rgba(235, 160, 0, 0.5) 68%);
+    background: linear-gradient(187deg, rgba(32, 113, 249, 0.7) 40%, rgba(238, 171, 25, 0.9) 68%);
     min-height: 100vh;
     overflow: hidden;
     position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
 .header-title {
-	margin: 0;
-	padding: 0;
-	color: #fff;
-	text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 70px;
     .bold-head {
         font-weight: 900;
-        color: #f5810c;
-
+        color: $orangecl;
     }
 }
+
 .header-text {
     font-size: 25px;
-    color: #0c10f5;
+    color: #f8f8fc;
     max-width: 500px;
     text-align: center;
     margin: auto;
 }
 
-.cover-container{
-max-width: 42em;
-margin: 20vh 0 10vh 0;
+.cover-container {
+    max-width: 42em;
+    margin: 20vh 0 10vh 0;
 }
 
 .header-title .thin {
-	font-weight: 400;
+    font-weight: 400;
 }
+
 .social {
     list-style: none;
     font-size: 50px;
 }
 
 .social li a i {
-    color: rgb(228, 133, 9);
-    text-shadow: 1px 1px 1px rgb(30, 26, 228);
+    color: rgb(13, 110, 253);
+    padding: 5px;
+    text-shadow: 1px 1px 1px rgb(3, 5, 126);
 }
-.social li a i:hover{
-    color: blue;
+
+.social li a i:hover {
+    color: rgb(252, 251, 249);
+    border-bottom: 3px solid #fff;
+    text-shadow: 0 0 10px rgb(226, 136, 1);
 }
 
 .header-btn {
     margin-top: 40px;
+    min-width: 200px;
+    text-transform: uppercase;
 }
-
 
 canvas {
     position: absolute;
     top: 0;
     left: 0;
     z-index: -999;
-    height: inherit;
-
+    // height: inherit;
 }
 
-@media all and (max-width: 1024px){
-    .header-title{
+@media all and (max-width: 1024px) {
+    .header-title {
         font-size: 50px;
     }
     .header {
         overflow: auto;
     }
-    .header-text{
+    .header-text {
         font-size: 30px;
     }
     .cover-container {
-        margin-top: 15vh;
+        margin-top: 6vh;
     }
     .social {
         font-size: 25px;
@@ -87,5 +90,4 @@ canvas {
     .btn-lg {
         font-size: 20px;
     }
-
 }

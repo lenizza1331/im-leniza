@@ -1,39 +1,41 @@
 #contacts {
-    background-color: rgb(4, 4, 163);
+    background-color: $bluecl;
     min-height: 50vh;
     .contact__title {
         display: flex;
         justify-content: center;
-        h2{
+        h2 {
             font-size: 40px;
             font-weight: bold;
             color: rgb(235, 233, 231);
-            text-shadow: 1px 1px 2px rgb(17, 5, 185);
+            text-shadow: 1px 1px 2px $bluecl;
             font-family: 'Open Sans Condensed', sans-serif;
             text-align: center;
             margin-top: 30px;
+            padding: 5px;
+            border-bottom: 2px solid $orangecl;
         }
     }
 }
+
 .contact {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     &__wrapper {
         max-width: 50vw;
         margin: 30px 0;
         padding: 10px;
     }
 }
+
 .forma {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     font-family: 'Open Sans Condensed', sans-serif;
-
-    label{
+    label {
         font-size: 25px;
         color: white;
         // font-weight: bold;
@@ -46,7 +48,7 @@
         font-size: 18px;
     }
     .textInput:focus {
-        border: 3px orange solid;
+        border: 3px $orangecl solid;
         background-color: rgb(224, 250, 216);
     }
     .forma-btn {
@@ -56,50 +58,48 @@
         margin: auto;
         margin-top: 10px;
         border-radius: 10px;
-        background-color: orange;
+        background-color: $orangecl;
         color: white;
         transition: all .3s ease;
     }
     .forma-btn:hover {
-        background-color: rgb(7, 167, 28);
+        background-color: rgb(53, 170, 62);
         box-shadow: 0 0 10px black;
     }
 }
+
 .myCont {
     max-width: 50vw;
     margin: 30px 0;
     padding: 10px;
     h3 {
         color: rgb(235, 233, 231);
-        text-shadow: 1px 1px 2px rgb(17, 5, 185);
+        text-shadow: 1px 1px 2px $bluecl;
         font-size: 30px;
         text-align: end;
         font-family: 'Open Sans Condensed', sans-serif;
-
     }
     .list-contact {
         list-style: none;
         display: flex;
         justify-content: space-between;
         margin: 20px;
-        li a i{
+        li a i {
             margin: 15px 0;
             font-size: 50px;
-            color: orange;
+            color: $orangecl;
             padding: 5px;
-            transition: .25s ;
-
+            transition: .25s;
         }
         li a i:hover {
             color: white;
-            border-bottom: 3px solid rgb(247, 173, 14);
+            border-bottom: 3px solid $orangecl;
             text-shadow: 0 0 10px #000;
         }
     }
 }
 
-
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
     .contact {
         justify-content: center;
     }
@@ -108,8 +108,8 @@
     }
 }
 
-@media all and (max-width: 500px){
-    .myCont{
+@media all and (max-width: 500px) {
+    .myCont {
         max-width: 90vw;
         .list-contact li a i {
             font-size: 30px;
@@ -121,5 +121,4 @@
     .forma-btn {
         min-width: 50vw;
     }
-    
 }

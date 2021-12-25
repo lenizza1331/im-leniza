@@ -1,77 +1,451 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>I'm Leniza</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/LENIZA.png">
     <link href="http://fonts.cdnfonts.com/css/copyright-house-industries" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Open+Sans+Condensed:wght@300&family=Pacifico&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/0e774f4d10.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
-<!-- navbar -->
+
+    <!-- navbar -->
     <nav class=" navbar p-0 navbar-expand-lg navbar-dark bg-primary">
         <div class="container-xl">
             <a class="navbar-brand" href="#">
-                <img class="nav__logo" src="assets/LENIZA.png" alt="logo Leniza" >
+                <img class="nav__logo" src="assets/LENIZA.png" alt="logo Leniza">
             </a>
-            
-                <a class="list__rus me-md-auto" href="index.html"></a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <a class="list__rus me-md-auto" href="index.html"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav  ms-auto">
                     <li class="nav-item nav__list ">
-                        <a class="nav-link me-2 active" aria-current="page" href="#">About me</a>
+                        <a class="nav-link me-2 active" aria-current="page" href="#aboutme">About me</a>
                     </li>
                     <li class="nav-item nav__list">
-                        <a class="nav-link me-2 active" href="#">Portfolio</a>
+                        <a class="nav-link me-2 active" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item nav__list">
-                        <a class="nav-link me-2 active" href="#">Contacts</a>
+                        <a class="nav-link me-2 active" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item nav__list">
+                        <a class="nav-link me-2 active" href="#contacts">Contacts</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-<!-- end navbar -->
+    <!-- end navbar -->
 
 
 
-<div class="header" id="animated">
-    <div class="container-lg">
-        <div class="row featurette mb-4 ">
-            <div class="col-md-6 mt-5 align-self-center order-md-2">
-                <h1 class="header-title">Hey! <span class="thin">
-                        I'm Leniza and I'm a web developer</span></h1>
-            </div>
-            <div class="col-md-6 mt-5 d-flex align-items-center justify-content-center order-md-1">
-                <img src="assets/lz (4).png" class="img-fluid mx-auto photo" alt="">
+    <!-- header -->
+    <section id="header">
+        <div class="header" id="animated">
+            <div class="container-lg">
+                <div class="cover-container d-flex w-100 h-100 p-3 mx-auto  flex-column text-center">
+                    <main class="px-3 ">
+                        <h1 class="header-title"><span class="bold-head">Hello! </span>I'm Leniza </h1>
+                        <p class="header-text">I'm a front-end web developer from Moscow, I create beautiful and adaptive websites with a high-quality and user-friendly interface
+                        </p>
+                        <p class="lead">
+                            <ul class="social list-group my-5  d-flex justify-content-evenly list-group-horizontal ">
+                                <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                                <li><a title="Check Instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
+                                    class="fa fa-instagram"></i></a></li>
+                                <li><a title="Write to Telegram" target="blank" href="https://t.me/lylykox"><i
+                                    class="far fa-paper-plane"></i></a></li>
+                                <li><a title="Send email" target="blank" href="mailto:leniyuva@gmail.com"><i
+                                    class="fas fa-at"></i></a></li>
+                                <li><a title="Write to Whatsapp" target="blank" href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20"><i
+                                    class="fab fa-whatsapp"></i></a></li>
+                            </ul>
+                        </p>
+                        <p class="lead">
+                            <a href="#aboutme" class="btn btn-outline-primary  header-btn">Learn more</a>
+                        </p>
+                    </main>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+    <!-- end header -->
+
+
+    <!-- about me -->
+    <section id="aboutme">
+
+        <div class="about">
+            <div class="container-lg ">
+                <div class="row featurette ">
+                    <div class="col-lg-6 mt-2 d-flex align-items-center justify-content-center order-md-1">
+                        <img src="assets/lz (4).png" id="myPhoto" class="img-fluid mx-auto photo" alt="">
+                    </div>
+                    <div class="col-lg-6 my-lg-3 my-md-2 d-flex flex-column align-items-start  justify-content-center order-md-1 textaboutme">
+                        <h3 class="about__heading">ABOUT ME</h3>
+                        <p class="about__text">Hi, I'm Leniza and I'm a web developer from Moscow. I'm creating from scratch modern, adaptive and dynamic websites and web applications. Programming is my passion, I love to learn and constantly improve my skills. I like to work
+                            on interesting and visually beautiful projects, I always pay special attention to adaptability and will certainly finish the job in the required time. I work well both alone and with a team. I am responsible and executive,
+                            always in touch and, of course, I guarantee the quality of my work</p>
+                        <h3 class="about__heading">SKILLS</h3>
+                        <ul class="list-group list-group-horizontal d-flex flex-wrap justify-content-evenly skills">
+                            <li><i title="HTML" class="fab fa-html5"></i></li>
+                            <li><i title="CSS" class="fab fa-css3-alt"></i></li>
+                            <li><i title="JavaScript" class="fab fa-js"></i></li>
+                            <li><i title="SASS" class="fab fa-sass"></i></li>
+                            <li><i title="GitHub" class="fab fa-github"></i></li>
+                            <li><i title="Figma" class="fab fa-figma"></i></li>
+                            <li><i title="React" class="fab fa-react"></i></li>
+                            <li><i title="Node.js" class="fab fa-node-js"></i></li>
+                            <li><i title="Bootstrap5" class="fab fa-bootstrap"></i></li>
+                            <li><img title="BEM" src="assets/bem.png" width="30px" height="30px" alt="bem logo"></li>
+                            <li><img title="GSAP" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/logo.gif" width="30px" height="30px" alt="GreenSock logo"></li>
+                        </ul>
+                        <h3 class="about__heading">WORKFLOW</h3>
+                        <ul class="list-group ">
+                            <li class=" workingon">Mobile-First, Responsive Design</li>
+                            <li class=" workingon">Cross Browser Testing & Debugging</li>
+                            <li class=" workingon">Cross Functional Teams</li>
+                            <li class="workingon">Agile Development & Scrum</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- end about me -->
+
+    <!-- portfolio -->
+    <section id="portfolio">
+        <div class="container-lg">
+            <div class="title-apps">
+                <h2>My Apps</h2>
+                <p>Web-applications and games</p>
+            </div>
+            <div class="myapps ">
+                <!-- item -->
+                <!-- col-xxl-5 col-lg-4 col-md-5 -->
+                <div class="image col-xxl-3 col-lg-4">
+                    <img class="image__image" src="assets/affirmation.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Affirmations</div>
+                        <p class="image__desc">More than 50 affirmations for each topic in random order</p>
+                        <a href="https://leniza-affirmation-js.glitch.me/" target="blank" class="image__btn">Visit
+                            website</a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <!--  col-xxl-5 col-lg-4 col-md-5  -->
+                <div class="image col-xxl-3 col-lg-4">
+                    <img class="image__image" src="assets/meditation.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Meditation</div>
+                        <p class="image__desc">It's time to relax by choosing one of the 5 sounds</p>
+                        <a href="https://leniza-meditation-js.glitch.me/" target="blank" class="image__btn">Visit
+                            website </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <!-- col-lg-4 col-md-5 -->
+                <div class="image col-xxl-3 col-lg-4">
+                    <img class="image__image" src="assets/arenda.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Let's split the rent</div>
+                        <p class="image__desc">An application that will help you calculate in one click how much everyone spends on rent
+                        </p>
+                        <a href="https://leniza-rent-share.glitch.me/" target="blank" class="image__btn">Visit website
+                        </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <!-- col-xxl-3 col-lg-4-->
+                <div class="image  col-xxl-3 col-lg-4">
+                    <img class="image__image" src="assets/games.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Games</div>
+                        <p class="image__desc">4 mini-games for fun, can you win? ;)</p>
+                        <a href="https://leniza-games-board.glitch.me/" target="blank" class="image__btn">Visit website
+                        </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/todolist.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">To do list</div>
+                        <p class="image__desc">A convenient and adaptive to-do list, add a case, save it, and after completing it, erase it </p>
+                        <a href="https://leniza-todolist-js.glitch.me/" target="blank" class="image__btn">Visit website
+                        </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/turkuhnya.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Turkish cuisine</div>
+                        <p class="image__desc">The easiest and most delicious recipes from Turkish cuisine</p>
+                        <a href="https://leniza-turkuhnya-js.glitch.me/index.html" target="blank" class="image__btn">Visit website</a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/random.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Random recipe</div>
+                        <p class="image__desc">Don't know what to cook? Try my app, the search will randomly give one of the many dishes</p>
+                        <a href="https://leniza-random-recipe.glitch.me/" target="blank" class="image__btn">Visit
+                            website </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/test.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Quiz for beginners in the Front-end</div>
+                        <p class="image__desc">Started learning front-end? Then this easy quiz is for you! Choose a topic and answer 5 questions</p>
+                        <a href="https://leniza-test-js.glitch.me/" target="blank" class="image__btn">Visit website </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/serial.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Choose a series</div>
+                        <p class="image__desc">Don't know which TV series to watch? Answer a few questions and you'll find out which series is right for you now</p>
+                        <a href="https://leniza-4to-posmotret.glitch.me/" target="blank" class="image__btn">Visit
+                            website </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/shar.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">The Ball of Fate</div>
+                        <p class="image__desc">The analogy of the well-known ball of fate! Ask a question and get an answer. Ball never lies!</p>
+                        <a href="https://leniza-fortune-ball.glitch.me/" target="blank" class="image__btn">Visit website
+                        </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/sport.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Sport-timer</div>
+                        <p class="image__desc">Do you want to do a workout online? My app will help! Recommended the time of each exercise is at least 5 minutes ;)</p>
+                        <a href="https://leniza-sporttimer-js.glitch.me/" target="blank" class="image__btn">Visit
+                            website </a>
+                    </div>
+                </div>
+                <!-- item end -->
+
+                <!-- item -->
+                <div class="image col-xxl-3 col-lg-4 ">
+                    <img class="image__image" src="assets/newyear.jpg" alt="">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Countdown NewYear</div>
+                        <p class="image__desc">Find out how much is left until the New Year! The app will also help you create New Year's mood with a falling snowball and New Year's music!</p>
+                        <a href="https://leniza-new-year.glitch.me/" target="blank" class="image__btn">Visit website
+                        </a>
+                    </div>
+                </div>
+                <!-- item end -->
+                <!-- end of apps -->
+
+
+                <div class="title-apps">
+                    <h2>My Websites</h2>
+                    <p>All sites are examples</p>
+                </div>
+                <div class="myapps">
+                    <!-- item -->
+                    <div class="image col-xxl-3 col-lg-4 ">
+                        <img class="image__image" src="assets/photograf.jpg" alt="">
+                        <div class="image__overlay image__overlay--blur">
+                            <div class="image__title">Photographer Ayris P.</div>
+                            <p class="image__desc">Sample site for the photographer</p>
+                            <a href="https://leniza-photo-example.glitch.me/" target="blank" class="image__btn">Visit
+                                website</a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <!-- item -->
+                    <div class="image col-xxl-3 col-lg-4 ">
+                        <img class="image__image" src="assets/soulmade.jpg" alt="">
+                        <div class="image__overlay image__overlay--blur">
+                            <div class="image__title">Jewelry shop</div>
+                            <p class="image__desc">Jewelry store site</p>
+                            <a href="https://leniza-jewerly-js.glitch.me/" target="blank" class="image__btn">Visit
+                                website </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <!-- item -->
+                    <div class="image col-xxl-3 col-lg-4 ">
+                        <img class="image__image" src="assets/priuti.jpg" alt="">
+                        <div class="image__overlay image__overlay--blur">
+                            <div class="image__title">Shelter "Wet nose"</div>
+                            <p class="image__desc">Site for example, but all animals are real and looking for a house! Don't buy - shelter!
+                            </p>
+                            <a href="https://leniza-sheleter-example.glitch.me/" target="blank" class="image__btn">Visit
+                                website</a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <!-- item -->
+                    <div class="image col-xxl-3 col-lg-4 ">
+                        <img class="image__image" src="assets/bakery.jpg" alt="">
+                        <div class="image__overlay image__overlay--blur">
+                            <div class="image__title">PEACH bakery</div>
+                            <p class="image__desc">If you didn't want a cake after visiting my site, then you not a sweet tooth))</p>
+                            <a href="https://leniza-bakery-example.glitch.me/" target="blank" class="image__btn">Visit
+                                website</a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <!-- item -->
+                    <div class="image col-xxl-3 col-lg-4 ">
+                        <img class="image__image" src="assets/istanbul.jpg" alt="">
+                        <div class="image__overlay image__overlay--blur">
+                            <div class="image__title">"Istanbul-easy"</div>
+                            <p class="image__desc">Interested in a trip to Istanbul? Write to me, one of my favorite cities! I will help you to love it too!</p>
+                            <a href="https://istanbul-easy-lz.glitch.me/" target="blank" class="image__btn">Visit
+                                website</a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <!-- item -->
+                    <div class="image col-xxl-3 col-lg-4 ">
+                        <img class="image__image" src="assets/sushi.jpg" alt="">
+                        <div class="image__overlay image__overlay--blur">
+                            <div class="image__title">Sushi Gold</div>
+                            <p class="image__desc">Sample site for a restaurant</p>
+                            <a href="https://leniza-sushigold-example.glitch.me/" target="blank" class="image__btn">Visit website</a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
 
 
+    <!-- testimonial -->
+
+    <section id="testimonial">
+        <div class="reviews">
+            <div class="container-lg reviews__wrapper">
+                <div class="reviews__header">
+                    <h2>Testimonial</h2>
+                </div>
+                <div class="reviews__body">
+                    <h3>Maria V:</h3>
+                    <p>One of the best developer in the WORLD! Very lucky that there are such people! Excellent! Everything works as it should, the design is super, the animation is generally awesome! I highly recommend Leniza</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- contact -->
+    <section id="contacts">
+        <div class="contact__title">
+            <h2>My contacts</h2>
+        </div>
+        <div class="contact container-lg">
+            <!-- 1column -->
+            <div class="contact__wrapper ">
+                <div class=" contForm">
+                    <form action="https://formspree.io/f/mgerrqpz" method="POST">
+                        <div class="forma">
+                            <label for="name">Your name:</label>
+                            <input required="" type="text" class="textInput" id="name" placeholder="First Name Last Name..." name="name" maxlength="40">
+                        </div>
+                        <div class="forma">
+                            <label for="email">Your Email:</label>
+                            <input required="" type="email" class="textInput" id="email" name="_replyto" placeholder="email@example.com" name="email" maxlength="40">
+                        </div>
+                        <div class="forma">
+                            <label for="exampleFormControlTextarea1">Your message:</label>
+                            <textarea required="" placeholder="Enter your message ..." name="message" class="textInput" id="exampleFormControlTextarea1" rows="4" cols="30" name="textarea"></textarea>
+                        </div>
+                        <div class="forma">
+                            <button class="forma-btn" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 2column -->
+            <div class="myCont">
+                <h3>You can contact me in any way convenient for you</h3>
+                <ul class="list-contact ">
+                    <li><a title="Check Instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a title="Write to Telegram" target="blank" href="https://t.me/lylykox"><i
+                                class="far fa-paper-plane"></i></a></li>
+                    <li><a title="Send email" target="blank" href="mailto:leniyuva@gmail.com"><i
+                                class="fas fa-at"></i></a></li>
+                    <li><a title="Write to Whatsapp" target="blank" href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20"><i
+                                class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
 
 
 
-
-
-
-
-
+    <script src="scripts/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/animation.js"></script>
+    <script src="scripts/canvabg.js"></script>
 </body>
+
 </html>

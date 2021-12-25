@@ -23,4 +23,17 @@ myPhoto.addEventListener("click", ()=> {
 });
 
 
+const scrollTop = document.querySelector('#scrollTop');
+window.onscroll = () => {
+    if (window.scrollY > 600){
+        scrollTop.classList.remove('scrollUp_hide');
+    }
+    else {scrollTop.classList.add('scrollUp_hide')}
+};
+
+scrollTop.onclick = ()=>{
+    window.scrollTo(0,0);
+}
+
+
 

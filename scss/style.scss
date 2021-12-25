@@ -19,3 +19,30 @@ a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 button{cursor: pointer;}
 input,button,textarea{font-family:inherit;}
+
+
+#scrollTop {
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
+    font-size: 40px;
+    z-index: 999;
+    transition: 0.5s;
+}
+.scrollUp {
+    opacity: 0.6;
+    color: rgb(51, 46, 46);
+}
+.scrollUp_hide {
+    opacity: 0;
+}
+
+@media all and (max-width:850px){
+    #scrollTop {
+        right: 15px;
+        font-size: 25px;
+        bottom: 50px;
+
+    }
+
+}

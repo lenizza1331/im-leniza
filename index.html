@@ -23,6 +23,10 @@
 </head>
 
 <body>
+    <div class="scrollUp scrollUp_hide" id="scrollTop">
+        <i class="far fa-arrow-alt-circle-up"></i>
+    </div>
+
     <!-- navbar -->
     <nav class=" navbar p-0 navbar-expand-lg navbar-dark bg-primary">
         <div class="container-xl">
@@ -64,24 +68,21 @@
             <div class="container-lg">
                 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto  flex-column text-center">
                     <main class="px-3 ">
-                        <h1 class="header-title"><span class="bold-head">Привет! </span> я Лениза </h1>
-                        <p class="header-text">я front-end веб-разработчик из Москвы, создаю красивые и адаптивные сайты
-                            с
-                            качественным и удобным интерфейсом
-                        </p>
+                        <h1 class="header-title"><span class="bold-head"> </span> Я Лениза </h1>
+                        <p class="header-text">я front-end веб-разработчик из Москвы, создаю красивые и адаптивные сайты с качественным и удобным интерфейсом</p>
                         <p class="lead">
-                            <ul class="social list-group my-5  d-flex justify-content-evenly list-group-horizontal ">
+                            <ul class="social list-group my-5   d-flex justify-content-evenly list-group-horizontal ">
                                 <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-                                <li><a title="Перейти в instagram" target="blank"
-                                        href="https://instagram.com/leniza.code.me"><i class="fa fa-instagram"></i></a>
+                                <li class="sign"><a title="Перейти в instagram" target="blank"
+                                        href="https://instagram.com/leniza.code.me"><i class=" fa fa-instagram"></i></a>
                                 </li>
-                                <li><a title="Перейти в telegram" target="blank" href="https://t.me/lylykox"><i
-                                            class="far fa-paper-plane"></i></a></li>
-                                <li><a title="Перейти на почту" target="blank" href="mailto:leniyuva@gmail.com"><i
-                                            class="fas fa-at"></i></a></li>
-                                <li><a title="Перейти в whatsapp" target="blank"
+                                <li class="sign"><a title="Перейти в telegram" target="blank" href="https://t.me/lylykox"><i
+                                            class="far  fa-paper-plane"></i></a></li>
+                                <li class="sign"><a title="Перейти на почту" target="blank" href="mailto:leniyuva@gmail.com"><i
+                                            class="fas  fa-at"></i></a></li>
+                                <li class="sign"><a title="Перейти в whatsapp" target="blank"
                                         href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20сайт"><i
-                                            class="fab fa-whatsapp"></i></a></li>
+                                            class="fab  fa-whatsapp"></i></a></li>
                             </ul>
                         </p>
                         <p class="lead">
@@ -103,18 +104,17 @@
                     <div class="col-lg-6 mt-2 d-flex align-items-center justify-content-center order-md-1">
                         <img src="assets/lz (4).png" id="myPhoto" class="img-fluid mx-auto photo" alt="">
                     </div>
-                    <div
-                        class="col-lg-6 my-lg-3 my-md-2 d-flex flex-column align-items-start  justify-content-center order-md-1 textaboutme">
-                        <h3 class="about__heading">ОБО МНЕ</h3>
-                        <p class="about__text">Привет, я Лениза и я веб-разработчик из Москвы. Я создаю с нуля
+                    <div class="col-lg-6 my-lg-3 my-md-2 d-flex flex-column align-items-start  justify-content-center order-md-1 textaboutme">
+                        <h3 class="about__heading one">ОБО МНЕ</h3>
+                        <p class="about__text textOne">Привет, я Лениза и я веб-разработчик из Москвы. Я создаю с нуля
                             современные, адаптивные и динамичные сайты и веб-приложения.
                             Программирование - моя страсть, я люблю учиться и постоянно совершенствуюсь в своих навыках.
                             Мне нравится работать над интересными и визуально красивыми проектами, я всегда уделяю
                             особое внимание адаптивности и непременно довожу дело до конца в необходимые сроки.
                             Хорошо работаю как одна, так и с командой. Я ответственна и исполнительна, всегда на связи
                             и, конечно же, гарантирую качество своей работы</p>
-                        <h3 class="about__heading">SKILLS</h3>
-                        <ul class="list-group list-group-horizontal d-flex flex-wrap justify-content-evenly skills">
+                        <h3 class="about__heading two">SKILLS</h3>
+                        <ul class="list-group textTwo list-group-horizontal d-flex flex-wrap justify-content-evenly skills">
                             <li><i title="HTML" class="fab fa-html5"></i></li>
                             <li><i title="CSS" class="fab fa-css3-alt"></i></li>
                             <li><i title="JavaScript" class="fab fa-js"></i></li>
@@ -128,8 +128,8 @@
                             <li><img title="GSAP" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/logo.gif"
                                     width="30px" height="30px" alt="GreenSock logo"></li>
                         </ul>
-                        <h3 class="about__heading">WORKFLOW</h3>
-                        <ul class="list-group ">
+                        <h3 class="about__heading three">WORKFLOW</h3>
+                        <ul class="list-group textThree ">
                             <li class=" workingon">Ориентация на мобильные устройства, адаптивный дизайн</li>
                             <li class=" workingon">Кроссбраузерное тестирование и отладка</li>
                             <li class=" workingon">Межфункциональные команды</li>
@@ -147,7 +147,7 @@
     <!-- portfolio -->
     <section id="portfolio">
         <div class="container-lg">
-            <div class="title-apps">
+            <div class="title-apps first">
                 <h2>Мои приложения</h2>
                 <p>Веб-приложения и игры</p>
             </div>
@@ -310,11 +310,11 @@
                 <!-- end of apps -->
 
 
-                <div class="title-apps">
+                <div class="title-apps second">
                     <h2>Мои сайты</h2>
                     <p>Все сайты являются примерами</p>
                 </div>
-                <div class="myapps">
+                <div class="myapps" id="myWeb">
                     <!-- item -->
                     <div class="image col-xxl-3 col-lg-4 ">
                         <img class="image__image" src="assets/photograf.jpg" alt="">
@@ -390,22 +390,9 @@
                     </div>
                     <!-- item end -->
                 </div>
-
-
-
             </div>
         </div>
-
         </div>
-
-
-
-
-
-
-
-
-
     </section>
 
 
@@ -467,13 +454,13 @@
             <div class="myCont">
                 <h3>Вы можете связаться со мной любым удобным для Вас способом</h3>
                 <ul class="list-contact ">
-                    <li><a title="Перейти в instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
+                    <li class="footersign"><a title="Перейти в instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
                                 class="fa fa-instagram"></i></a></li>
-                    <li><a title="Перейти в telegram" target="blank" href="https://t.me/lylykox"><i
+                    <li class="footersign"><a title="Перейти в telegram" target="blank" href="https://t.me/lylykox"><i
                                 class="far fa-paper-plane"></i></a></li>
-                    <li><a title="Перейти на почту" target="blank" href="mailto:leniyuva@gmail.com"><i
+                    <li class="footersign"><a title="Перейти на почту" target="blank" href="mailto:leniyuva@gmail.com"><i
                                 class="fas fa-at"></i></a></li>
-                    <li><a title="Перейти в whatsapp" target="blank"
+                    <li class="footersign"><a title="Перейти в whatsapp" target="blank"
                             href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20сайт"><i
                                 class="fab fa-whatsapp"></i></a></li>
                 </ul>
@@ -483,15 +470,12 @@
     </section>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
 
-    <script src="scripts/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
-        integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="scripts/script.js"></script>
+
+    <script src="scripts/script.js"></script> 
     <script src="scripts/animation.js"></script>
     <script src="scripts/canvabg.js"></script>
 </body>

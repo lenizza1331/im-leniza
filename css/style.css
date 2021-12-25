@@ -798,3 +798,30 @@ button {
 input, button, textarea {
     font-family: inherit;
 }
+
+#scrollTop {
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
+    font-size: 40px;
+    z-index: 999;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.scrollUp {
+    opacity: 0.6;
+    color: #332e2e;
+}
+
+.scrollUp_hide {
+    opacity: 0;
+}
+
+@media all and (max-width: 850px) {
+    #scrollTop {
+        right: 15px;
+        font-size: 25px;
+        bottom: 50px;
+    }
+}

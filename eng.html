@@ -20,6 +20,10 @@
 
 <body>
 
+    <div class="scrollUp scrollUp_hide" id="scrollTop">
+        <i class="far fa-arrow-alt-circle-up"></i>
+    </div>
+
     <!-- navbar -->
     <nav class=" navbar p-0 navbar-expand-lg navbar-dark bg-primary">
         <div class="container-xl">
@@ -60,19 +64,19 @@
             <div class="container-lg">
                 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto  flex-column text-center">
                     <main class="px-3 ">
-                        <h1 class="header-title"><span class="bold-head">Hello! </span>I'm Leniza </h1>
+                        <h1 class="header-title"><span class="bold-head"> </span>I'm Leniza </h1>
                         <p class="header-text">I'm a front-end web developer from Moscow, I create beautiful and adaptive websites with a high-quality and user-friendly interface
                         </p>
                         <p class="lead">
                             <ul class="social list-group my-5  d-flex justify-content-evenly list-group-horizontal ">
                                 <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-                                <li><a title="Check Instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
+                                <li class="sign"><a title="Check Instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
                                     class="fa fa-instagram"></i></a></li>
-                                <li><a title="Write to Telegram" target="blank" href="https://t.me/lylykox"><i
+                                <li class="sign"><a title="Write to Telegram" target="blank" href="https://t.me/lylykox"><i
                                     class="far fa-paper-plane"></i></a></li>
-                                <li><a title="Send email" target="blank" href="mailto:leniyuva@gmail.com"><i
+                                <li class="sign"><a title="Send email" target="blank" href="mailto:leniyuva@gmail.com"><i
                                     class="fas fa-at"></i></a></li>
-                                <li><a title="Write to Whatsapp" target="blank" href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20"><i
+                                <li class="sign"> <a title="Write to Whatsapp" target="blank" href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20"><i
                                     class="fab fa-whatsapp"></i></a></li>
                             </ul>
                         </p>
@@ -97,12 +101,12 @@
                         <img src="assets/lz (4).png" id="myPhoto" class="img-fluid mx-auto photo" alt="">
                     </div>
                     <div class="col-lg-6 my-lg-3 my-md-2 d-flex flex-column align-items-start  justify-content-center order-md-1 textaboutme">
-                        <h3 class="about__heading">ABOUT ME</h3>
-                        <p class="about__text">Hi, I'm Leniza and I'm a web developer from Moscow. I'm creating from scratch modern, adaptive and dynamic websites and web applications. Programming is my passion, I love to learn and constantly improve my skills. I like to work
+                        <h3 class="about__heading one">ABOUT ME</h3>
+                        <p class="about__text textOne">Hi, I'm Leniza and I'm a web developer from Moscow. I'm creating from scratch modern, adaptive and dynamic websites and web applications. Programming is my passion, I love to learn and constantly improve my skills. I like to work
                             on interesting and visually beautiful projects, I always pay special attention to adaptability and will certainly finish the job in the required time. I work well both alone and with a team. I am responsible and executive,
                             always in touch and, of course, I guarantee the quality of my work</p>
-                        <h3 class="about__heading">SKILLS</h3>
-                        <ul class="list-group list-group-horizontal d-flex flex-wrap justify-content-evenly skills">
+                        <h3 class="about__heading two">SKILLS</h3>
+                        <ul class="list-group textTwo list-group-horizontal d-flex flex-wrap justify-content-evenly skills">
                             <li><i title="HTML" class="fab fa-html5"></i></li>
                             <li><i title="CSS" class="fab fa-css3-alt"></i></li>
                             <li><i title="JavaScript" class="fab fa-js"></i></li>
@@ -115,8 +119,8 @@
                             <li><img title="BEM" src="assets/bem.png" width="30px" height="30px" alt="bem logo"></li>
                             <li><img title="GSAP" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/logo.gif" width="30px" height="30px" alt="GreenSock logo"></li>
                         </ul>
-                        <h3 class="about__heading">WORKFLOW</h3>
-                        <ul class="list-group ">
+                        <h3 class="about__heading three">WORKFLOW</h3>
+                        <ul class="list-group textThree">
                             <li class=" workingon">Mobile-First, Responsive Design</li>
                             <li class=" workingon">Cross Browser Testing & Debugging</li>
                             <li class=" workingon">Cross Functional Teams</li>
@@ -134,7 +138,7 @@
     <!-- portfolio -->
     <section id="portfolio">
         <div class="container-lg">
-            <div class="title-apps">
+            <div class="title-apps first">
                 <h2>My Apps</h2>
                 <p>Web-applications and games</p>
             </div>
@@ -288,11 +292,11 @@
                 <!-- end of apps -->
 
 
-                <div class="title-apps">
+                <div class="title-apps second">
                     <h2>My Websites</h2>
                     <p>All sites are examples</p>
                 </div>
-                <div class="myapps">
+                <div class="myapps" id="myWeb">
                     <!-- item -->
                     <div class="image col-xxl-3 col-lg-4 ">
                         <img class="image__image" src="assets/photograf.jpg" alt="">
@@ -424,13 +428,13 @@
             <div class="myCont">
                 <h3>You can contact me in any way convenient for you</h3>
                 <ul class="list-contact ">
-                    <li><a title="Check Instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
+                    <li class="footersign"><a title="Check Instagram" target="blank" href="https://instagram.com/leniza.code.me"><i
                                 class="fa fa-instagram"></i></a></li>
-                    <li><a title="Write to Telegram" target="blank" href="https://t.me/lylykox"><i
+                    <li class="footersign"><a title="Write to Telegram" target="blank" href="https://t.me/lylykox"><i
                                 class="far fa-paper-plane"></i></a></li>
-                    <li><a title="Send email" target="blank" href="mailto:leniyuva@gmail.com"><i
+                    <li class="footersign"><a title="Send email" target="blank" href="mailto:leniyuva@gmail.com"><i
                                 class="fas fa-at"></i></a></li>
-                    <li><a title="Write to Whatsapp" target="blank" href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20"><i
+                    <li class="footersign"><a title="Write to Whatsapp" target="blank" href="https://wa.me/79261911739?text=Привет%20,%20мне%20нужен%20"><i
                                 class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
@@ -439,10 +443,10 @@
     </section>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
 
-    <script src="scripts/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/animation.js"></script>
     <script src="scripts/canvabg.js"></script>

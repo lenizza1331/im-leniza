@@ -15,6 +15,7 @@
         particleLife        : 6,
     };
 
+    
     document.querySelector('#animated').appendChild(canvas);
 
     window.onresize = function(){

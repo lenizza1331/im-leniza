@@ -24,7 +24,7 @@ input,button,textarea{font-family:inherit;}
 #scrollTop {
     position: fixed;
     bottom: 80px;
-    right: 70px;
+    left: 70px;
     font-size: 40px;
     z-index: 999;
     transition: 0.5s;
@@ -39,7 +39,7 @@ input,button,textarea{font-family:inherit;}
 
 @media all and (max-width:850px){
     #scrollTop {
-        right: 15px;
+        left: 15px;
         font-size: 25px;
         bottom: 50px;
 

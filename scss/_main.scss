@@ -68,15 +68,12 @@ canvas {
     top: 0;
     left: 0;
     z-index: -999;
-    // height: inherit;
+    overflow: hidden;
 }
 
 @media all and (max-width: 1024px) {
     .header-title {
         font-size: 50px;
-    }
-    .header {
-        overflow: auto;
     }
     .header-text {
         font-size: 30px;
@@ -89,5 +86,17 @@ canvas {
     }
     .btn-lg {
         font-size: 20px;
+    }
+    canvas {
+        width: min-content;
+    }
+}
+
+@media all and (max-width: 600px){
+    .header-title {
+        font-size: 33px;
+    }
+    .header-text {
+        font-size: 19px;
     }
 }

@@ -247,14 +247,12 @@ canvas {
     top: 0;
     left: 0;
     z-index: -999;
+    overflow: hidden;
 }
 
 @media all and (max-width: 1024px) {
     .header-title {
         font-size: 50px;
-    }
-    .header {
-        overflow: auto;
     }
     .header-text {
         font-size: 30px;
@@ -267,6 +265,20 @@ canvas {
     }
     .btn-lg {
         font-size: 20px;
+    }
+    canvas {
+        width: -webkit-min-content;
+        width: -moz-min-content;
+        width: min-content;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .header-title {
+        font-size: 33px;
+    }
+    .header-text {
+        font-size: 23px;
     }
 }
 
@@ -802,7 +814,7 @@ input, button, textarea {
 #scrollTop {
     position: fixed;
     bottom: 80px;
-    right: 70px;
+    left: 70px;
     font-size: 40px;
     z-index: 999;
     -webkit-transition: 0.5s;
@@ -820,7 +832,7 @@ input, button, textarea {
 
 @media all and (max-width: 850px) {
     #scrollTop {
-        right: 15px;
+        left: 15px;
         font-size: 25px;
         bottom: 50px;
     }

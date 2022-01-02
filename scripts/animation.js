@@ -107,7 +107,7 @@ if (window.innerWidth >= 800){
         stagger: 0.5,
         scrollTrigger: {
             trigger:'.myCont',
-            start: 'top 50%'
+            start: 'top 30%'
         }
     })
 }

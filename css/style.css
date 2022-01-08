@@ -129,7 +129,7 @@
 
 @media all and (max-width: 800px) {
     .navbar {
-        height: 50px;
+        height: 65px;
     }
     .nav__logo {
         width: 40px;

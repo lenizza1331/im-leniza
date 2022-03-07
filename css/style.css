@@ -3,11 +3,8 @@
     height: 75px;
     z-index: 10000;
     width: 100%;
-}
-
-.sticky-top {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
 }
 
 .nav__logo {

@@ -47,7 +47,9 @@ const header = document.querySelector('.navbar');
 const scrollPosition = () => window.pageYOffset || document.documentElement.scrollTop;
 const containHide = () => header.classList.contains('sticky-top');
 
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', scrollNav);
+
+function scrollNav() {
     if(scrollPosition() > lastScroll && containHide() ) {
         //scroll down
         header.classList.remove('sticky-top');
@@ -56,9 +58,9 @@ window.addEventListener('scroll', () => {
     else if(scrollPosition() < lastScroll && !containHide()  && scrollPosition() > defaultOffset){
         //scroll up
         header.classList.add('sticky-top');
-        
     }
     lastScroll = scrollPosition();
-})
+}
+
 
 
